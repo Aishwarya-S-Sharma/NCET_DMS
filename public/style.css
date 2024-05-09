@@ -21,6 +21,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-bottom: 6.74rem;
   box-sizing: inherit;
   display:flex;
