@@ -18,8 +18,8 @@ body {
   font-size: 1rem;
   min-height: 100vh;
   background: url('ii.jpg');
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: cover;
+  background-position:top right;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-bottom: 6.74rem;
@@ -28,7 +28,7 @@ body {
   flex-direction: column;
 }
 
-/* body::before {
+body::before {
   content: "";
   position: relative;
   top: 0;
@@ -38,7 +38,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(8px);
   z-index: -1; 
-} */
+}
 
 nav {
   display: flex;
