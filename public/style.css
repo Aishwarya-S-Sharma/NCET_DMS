@@ -28,7 +28,7 @@ body {
   flex-direction: column;
 }
 
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   top: 0;
@@ -38,7 +38,7 @@ body::before {
   background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (last value) as needed */
   backdrop-filter: blur(8px); /* Adjust the blur amount as needed */
   z-index: -1; /* Ensure the pseudo-element is behind other content */
-}
+} */
 
 nav {
   display: flex;
