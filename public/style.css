@@ -25,14 +25,14 @@ body {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+/*   background-attachment: fixed; */
   padding-bottom: 6.74rem;
   box-sizing: inherit;
   display:flex;
   flex-direction: column;
 }
 
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   top: 0;
@@ -42,7 +42,7 @@ body::before {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(2px);
   z-index: -1; 
-}
+} */
 
 nav {
   display: flex;
