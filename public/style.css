@@ -17,7 +17,7 @@ body {
   margin: auto;
   font-size: 1rem;
   min-height: 100vh;
-  background: url('ii.jpg');
+  background: url('dms.jpg');
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
   flex-direction: column;
 }
 
-body::before {
+/* body::before {
   content: "";
   position: relative;
   top: 0;
@@ -38,7 +38,7 @@ body::before {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(8px);
   z-index: -1; 
-}
+} */
 
 nav {
   display: flex;
